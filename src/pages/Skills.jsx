@@ -27,8 +27,8 @@ import { DiPostgresql, DiMongodb, DiGo } from 'react-icons/di'
 const SKILL_GROUPS = [
   {
     title: 'Frontend',
-    x: '18%',
-    y: '20%',
+    x: '24%',
+    y: '28%',
     items: [
       { name: 'React', icon: <FaReact size={16} /> },
       { name: 'Next.js', icon: <TbBrandNextjs size={16} /> },
@@ -41,8 +41,8 @@ const SKILL_GROUPS = [
   },
   {
     title: 'Backend',
-    x: '54%',
-    y: '18%',
+    x: '76%',
+    y: '28%',
     items: [
       { name: 'Node.js', icon: <FaNodeJs size={16} /> },
       { name: 'Express.js', icon: <FaCode size={16} /> },
@@ -53,8 +53,8 @@ const SKILL_GROUPS = [
   },
   {
     title: 'Database',
-    x: '30%',
-    y: '52%',
+    x: '50%',
+    y: '50%',
     items: [
       { name: 'PostgreSQL', icon: <DiPostgresql size={16} /> },
       { name: 'MongoDB', icon: <DiMongodb size={16} /> },
@@ -64,8 +64,8 @@ const SKILL_GROUPS = [
   },
   {
     title: 'Cloud & DevOps',
-    x: '82%',
-    y: '20%',
+    x: '24%',
+    y: '72%',
     items: [
       { name: 'Docker', icon: <FaDocker size={16} /> },
       { name: 'Kubernetes', icon: <FaCloud size={16} /> },
@@ -80,8 +80,8 @@ const SKILL_GROUPS = [
   },
   {
     title: 'Tools',
-    x: '54%',
-    y: '82%',
+    x: '50%',
+    y: '72%',
     items: [
       { name: 'Figma', icon: <FaFigma size={16} /> },
       { name: 'Postman', icon: <FaCode size={16} /> },
@@ -109,8 +109,6 @@ export default function Skills(){
                 key={group.title}
                 className="skill-column"
                 style={{
-                  '--x': group.x,
-                  '--y': group.y,
                   '--duration': '8.4s',
                   '--delay': '0s',
                 }}
