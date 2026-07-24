@@ -89,7 +89,7 @@ export default function Home() {
           <div className="hero-copy">
             <div className="status-pill"><span className="live"></span> Software developer • founder • product builder</div>
             <h1>Designing <span className="grad">clarity</span>, speed, and <span className="grad">trust</span> into software.</h1>
-            <p className="lead">I build resilient systems, thoughtful product experiences, and practical AI tools for ambitious teams — with a lean, user-first approach grounded in real-world constraints.</p>
+            <p className="lead">I’m a final-year Software Engineering student at SWED, with hands-on training in frontend, backend, and DevOps through Course Careers. I build resilient systems, thoughtful product experiences, and practical AI tools for ambitious teams.</p>
             <div className="hero-ctas">
               <a href="/projects" className="btn btn-primary">See projects →</a>
               <a href="/about" className="btn btn-ghost">About me</a>
@@ -103,7 +103,7 @@ export default function Home() {
               </div>
               <div className="highlight-card">
                 <strong>3</strong>
-                <span>focus areas: product, systems, AI</span>
+                <span>focus areas: frontend, backend, DevOps</span>
               </div>
             </div>
           </div>

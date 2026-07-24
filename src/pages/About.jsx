@@ -19,8 +19,8 @@ export default function About(){
           <div className="eyebrow">About</div>
           <h2 className="section-title">From first lines of code to product systems.</h2>
           <div style={{marginTop:26}}>
-            <p>I’m a software developer who builds for fintech, agritech, and AI — and I think like a founder about product clarity, constraints, and momentum.</p>
-            <p>My focus is quality, reliability, and products that can scale with care, speed, and real-world practicality.</p>
+            <p>I’m a final-year Software Engineering student at SWED, and I built my foundation in frontend, backend, and DevOps through Course Careers. I’m focused on turning ideas into reliable software that people actually use.</p>
+            <p>I care about quality, reliability, and products that can scale with care, speed, and real-world practicality — whether I’m building interfaces, APIs, or deployment workflows.</p>
           </div>
           <div className="stats-row">
             <div className="stat"><div className="num" data-count="4">4</div><div className="lbl">Years Coding</div></div>
