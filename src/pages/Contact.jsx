@@ -8,7 +8,7 @@ export default function Contact(){
   }
 
   return (
-    <section className="section" id="contact" style={{background:'var(--bg-1)'}}>
+    <section className="section compact-page" id="contact" style={{background:'var(--bg-1)'}}>
       <div className="wrap contact-grid">
         <div>
           <div className="eyebrow">Contact</div>

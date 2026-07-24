@@ -3,7 +3,7 @@ import profilePic from '../pics/IMG-20260413-WA0103.jpg'
 
 export default function About(){
   return (
-    <section className="section" id="about">
+    <section className="section compact-page" id="about">
       <div className="wrap about-grid">
         <div className="photo-card">
           <img

@@ -95,7 +95,7 @@ const SKILL_GROUPS = [
 
 export default function Skills(){
   return (
-    <section className="section skills-page" id="skills">
+    <section className="section compact-page skills-page" id="skills">
       <div className="wrap">
         <div className="eyebrow">Skills</div>
         <h2 className="section-title">A galaxy of tools I build with.</h2>

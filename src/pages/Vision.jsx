@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Vision(){
   return (
-    <section className="section" id="vision">
+    <section className="section compact-page" id="vision">
       <div className="wrap">
         <div className="vision reveal">
           <div className="vision-bg"></div>

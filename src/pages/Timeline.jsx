@@ -3,7 +3,7 @@ import { TIMELINE } from '../data'
 
 export default function Timeline(){
   return (
-    <section className="section" id="timeline" style={{background:'var(--bg-1)'}}>
+    <section className="section compact-page" id="timeline" style={{background:'var(--bg-1)'}}>
       <div className="wrap">
         <div className="eyebrow">Journey</div>
         <h2 className="section-title">Education, founding, and everything between.</h2>
