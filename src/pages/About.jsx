@@ -17,10 +17,10 @@ export default function About(){
 
         <div className="about-body">
           <div className="eyebrow">About</div>
-          <h2 className="section-title">From first lines of code to product systems.</h2>
+          <h2 className="section-title">A builder shaped by discipline, ambition, and real-world experience.</h2>
           <div style={{marginTop:26}}>
-            <p>I bring 3 years of experience in software development, and I built my foundation in frontend, backend, and DevOps through Course Careers. I’m focused on turning ideas into reliable software that people actually use.</p>
-            <p>I care about quality, reliability, and products that can scale with care, speed, and real-world practicality — whether I’m building interfaces, APIs, or deployment workflows.</p>
+            <p>I’m David Phillipus, a final-year Software Engineering student at NUST, and I’ve spent the last 3 years learning by building — from interfaces and APIs to deployment workflows and practical product solutions.</p>
+            <p>I completed 3 certifications through Course Careers in Frontend, Backend, and DevOps, and I’m motivated by the idea of creating work that matters: software that is thoughtful, reliable, and built with intention. I want to grow into the kind of engineer who doesn’t just write code, but creates impact.</p>
           </div>
           <div className="stats-row">
             <div className="stat"><div className="num" data-count="3">3</div><div className="lbl">Years Experience</div></div>
