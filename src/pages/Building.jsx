@@ -13,6 +13,11 @@ export default function Building(){
               <div className={`build-status ${b.s}`}>{b.sl}</div>
               <h4>{b.t}</h4>
               <p>{b.x}</p>
+              {b.url && (
+                <a href={b.url} target="_blank" rel="noopener noreferrer" className="build-link">
+                  Visit live site →
+                </a>
+              )}
             </div>
           ))}
         </div>

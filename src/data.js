@@ -12,12 +12,14 @@ export const SKILLS = [
 ];
 
 export const PROJECTS = [
- {n:"FeedbackX", g:"FX", d:"A collaboration and feedback platform where users discuss ideas inside categorized communities, with live threads and voting.", t:["React","Node.js","Prisma","PostgreSQL","Socket.io"]},
- {n:"FarmSmart", g:"FS", d:"A digital agriculture platform helping farmers manage crops, livestock, inventory and buyers from one dashboard.", t:["Next.js","Node.js","PostgreSQL","REST APIs"]},
- {n:"NextStep AI", g:"NS", d:"An AI-powered career platform: resume builder, job matching, interview coach, career roadmaps and learning plans.", t:["Next.js","OpenAI API","TypeScript","Prisma"]},
- {n:"MESMTF", g:"MX", d:"A medical expert system for malaria and typhoid diagnosis, with an education chatbot, appointments and patient management.", t:["React","Node.js","MongoDB","AI/Rules Engine"]},
- {n:"Open Banking Middleware", g:"OB", d:"A middleware platform connecting banks through secure APIs, enabling fintech innovation across the market.", t:["Go","PostgreSQL","REST APIs","Docker"]},
- {n:"School Management Platform", g:"SM", d:"A nationwide school application and student management system digitizing admissions and administration.", t:["Next.js","Express.js","PostgreSQL","AWS"]},
+ {n:"Glamorous Guesthouse", g:"GG", d:"A polished hospitality site for a Namibian guesthouse — rooms, bookings, and brand presence built for real guests.", t:["React","Next.js","Vercel"], url:"https://www.glamorousguesthouse.com/", preview:"/projects/glamorous.jpg"},
+ {n:"Crenit", g:"CR", d:"A modern web product experience focused on clean UI, fast navigation, and a clear conversion path.", t:["React","Next.js","TailwindCSS"], url:"https://crenit-web.vercel.app/", preview:"/projects/crenit.jpg"},
+ {n:"Langa’s Agribusiness", g:"LA", d:"A business website for an agribusiness brand — showcasing services, products, and contact pathways.", t:["React","Vercel"], url:"https://langa-s-agribusiness-website.vercel.app/", preview:"/projects/langa.jpg"},
+ {n:"Vision", g:"VI", d:"A product landing experience built to communicate vision, features, and next steps with clarity.", t:["React","Next.js","Vercel"], url:"https://vision-one-fawn.vercel.app/", preview:"/projects/vision.jpg"},
+ {n:"FeedbackX", g:"FX", d:"A collaboration and feedback platform where users discuss ideas inside categorized communities, with live threads and voting.", t:["React","Node.js","Prisma","PostgreSQL","Socket.io"], url:"https://feedback-x.vercel.app/", preview:"/projects/feedbackx.jpg"},
+ {n:"FarmSmart", g:"FS", d:"A digital agriculture platform helping farmers manage crops, livestock, inventory and buyers from one dashboard.", t:["Next.js","Node.js","PostgreSQL","REST APIs"], url:"https://farmsmart-t47w.onrender.com", preview:"/projects/farmsmart.jpg"},
+ {n:"TCenDral Team", g:"TC", d:"A team presence site for TCenDral — mission, people, and projects in one focused web experience.", t:["React","Vercel"], url:"https://t-cen-dral.vercel.app/", preview:"/projects/tcendral.jpg"},
+ {n:"Personal Portfolio", g:"DP", d:"My personal portfolio — projects, skills, and the story behind how I build software.", t:["React","Vite","Vercel"], url:"https://davidphillipus.vercel.app/", preview:"/projects/portfolio.jpg"},
 ];
 
 export const TIMELINE = [
@@ -29,9 +31,9 @@ export const TIMELINE = [
 ];
 
 export const BUILDING = [
- {s:"live", sl:"● Live", t:"FeedbackX", x:"In active use by early community testers, iterating on real-time collaboration features."},
- {s:"build", sl:"◐ Building", t:"NextStep AI", x:"Building out the interview coach and career roadmap modules ahead of a closed beta."},
- {s:"idea", sl:"○ Exploring", t:"Open Banking SDK", x:"Scoping a developer SDK to make the middleware easier for fintechs to integrate."},
+ {s:"live", sl:"● Live", t:"FeedbackX", x:"In active use by early community testers, iterating on real-time collaboration features.", url:"https://feedback-x.vercel.app/"},
+ {s:"live", sl:"● Live", t:"FarmSmart", x:"Live agritech dashboard helping farmers manage crops, livestock, inventory and buyers.", url:"https://farmsmart-t47w.onrender.com"},
+ {s:"live", sl:"● Live", t:"Glamorous Guesthouse", x:"Production hospitality site live for real guests and bookings.", url:"https://www.glamorousguesthouse.com/"},
 ];
 
 export const ACH = [
